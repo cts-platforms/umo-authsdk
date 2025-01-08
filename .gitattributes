@@ -71,3 +71,4 @@
 /dist/UmoAuthSdk/path_provider_foundation.xcframework/ios-arm64/path_provider_foundation.framework/path_provider_foundation filter=lfs diff=lfs merge=lfs -text
 /dist/UmoAuthSdk/path_provider_foundation.xcframework/ios-arm64_x86_64-simulator/path_provider_foundation.framework/_CodeSignature/CodeResources filter=lfs diff=lfs merge=lfs -text
 /dist/UmoAuthSdk/path_provider_foundation.xcframework/ios-arm64_x86_64-simulator/path_provider_foundation.framework/path_provider_foundation filter=lfs diff=lfs merge=lfs -text
+kernel_blob.bin filter=lfs diff=lfs merge=lfs -text
