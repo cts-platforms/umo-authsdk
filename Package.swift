@@ -19,7 +19,6 @@ let package = Package(
                 "device_info_plus",
                 "package_info_plus",
                 "path_provider_foundation",
-                "sms_autofill",
                 "url_launcher_ios"
             ]
         )
@@ -59,10 +58,6 @@ let package = Package(
         .binaryTarget(
             name: "path_provider_foundation",
             path: "dist/UmoAuthSdk/path_provider_foundation.xcframework"
-        ),
-        .binaryTarget(
-            name: "sms_autofill",
-            path: "dist/UmoAuthSdk/sms_autofill.xcframework"
         ),
         .binaryTarget(
             name: "url_launcher_ios",
