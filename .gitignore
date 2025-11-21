@@ -3,3 +3,6 @@
 ## User settings
 xcuserdata/
 
+## Swift Package Manager - ZIP files for releases only
+dist/UmoAuthSdk/*.zip
+
