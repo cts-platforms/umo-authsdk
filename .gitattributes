@@ -1,10 +1,9 @@
-# Only track files in dist/UmoAuthSdk directory with LFS (for CocoaPods)
-# This ensures root-level files like LICENSE, Package.swift work with SPM
+# No LFS tracking needed - XCFrameworks distributed via GitHub Releases
+# Both CocoaPods and SPM download pre-built binaries from Releases
 
-# Track entire XCFramework directories
-dist/UmoAuthSdk/*.xcframework/** filter=lfs diff=lfs merge=lfs -text
-
-# Explicitly exclude certain patterns if needed
-*.podspec !filter !diff !merge text
-Package.swift !filter !diff !merge text
-.gitignore !filter !diff !merge text
+# Ensure text files are handled properly
+*.podspec text
+Package.swift text
+.gitignore text
+LICENSE text
+*.md text
