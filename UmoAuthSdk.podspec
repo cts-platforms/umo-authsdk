@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'UmoAuthSdk'
-    s.version          = '0.0.141-internal'
+    s.version          = '0.0.142-internal'
     s.summary          = 'Umo auth sdk module for passenger authentication'
     s.homepage         = 'https://github.com/cts-platforms/umo-authsdk'
     s.license          = { :type => 'Proprietary', :file => 'LICENSE' }

@@ -13,13 +13,10 @@ let package = Package(
                           "amplify_auth_cognito",
                           "amplify_secure_storage",
                           "App",
-                          "device_info_plus",
                           "Flutter",
                           "FlutterPluginRegistrant",
-                          "package_info_plus",
                           "path_provider_foundation",
-                          "UmoAuthSdk",
-                          "url_launcher_ios"
+                          "UmoAuthSdk"
             ]
         )
     ],
@@ -29,53 +26,38 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "amplify_auth_cognito",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/amplify_auth_cognito.xcframework.zip",
-            checksum: "ca099ac3d1521900f5b49251342c3062f301af2a7f27e650338e92f567d5e2eb"
+            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.142-internal/amplify_auth_cognito.xcframework.zip",
+            checksum: "1ed36a48b256817732bc6ecc4b11e037b5a68a7ff096757debf5aa17dbdab88f"
         ),
         .binaryTarget(
             name: "amplify_secure_storage",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/amplify_secure_storage.xcframework.zip",
-            checksum: "4f0c142e7bbd56195e936176bcab35405232746c56d0a6319fc572d80a03688c"
+            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.142-internal/amplify_secure_storage.xcframework.zip",
+            checksum: "b58ac350e3e11a652b71e8335131d95fdb207965d73dcd363577328e40561274"
         ),
         .binaryTarget(
             name: "App",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/App.xcframework.zip",
-            checksum: "f75cb670988466a86d25fdf9959b69699ffd9a0e54897cb0ff72434c79fbb9a8"
-        ),
-        .binaryTarget(
-            name: "device_info_plus",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/device_info_plus.xcframework.zip",
-            checksum: "3f83062cdd305e0be2af9f1dd6f291b830e7e0d34e86ce0178b6fb03d96cbc85"
+            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.142-internal/App.xcframework.zip",
+            checksum: "e19abbca0fc3bac19f0d070afd0446d38b73d79633d35db1e93da78c34b0f674"
         ),
         .binaryTarget(
             name: "Flutter",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/Flutter.xcframework.zip",
-            checksum: "23bc9f1189371733ce90f132c815071f025c21246456bd4ea6a33c29d662707c"
+            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.142-internal/Flutter.xcframework.zip",
+            checksum: "76892b42dc32ace9fda60006a14a3903992a5d381b638117501a753f1ad44004"
         ),
         .binaryTarget(
             name: "FlutterPluginRegistrant",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/FlutterPluginRegistrant.xcframework.zip",
-            checksum: "006558d55f6af85dc394a647157a23753d03fec1cccf1f7e370901ef06b8877f"
-        ),
-        .binaryTarget(
-            name: "package_info_plus",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/package_info_plus.xcframework.zip",
-            checksum: "a34b1b523caa8e368ed4cf617d8d6498d5dbf4486354978c169a90b5e37f18d4"
+            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.142-internal/FlutterPluginRegistrant.xcframework.zip",
+            checksum: "1315207713c762344d50d20111ca8317201986aef79b877d503157af4be138cf"
         ),
         .binaryTarget(
             name: "path_provider_foundation",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/path_provider_foundation.xcframework.zip",
-            checksum: "27355e007bfb0e5aedea4f4c8b27a7b203a2c49d81c8c1f7578f070dcf5dc659"
+            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.142-internal/path_provider_foundation.xcframework.zip",
+            checksum: "8ee0beafbdeabb19d96c3b327dcc5d23d66cf814801891f199d9ad15472b8132"
         ),
         .binaryTarget(
             name: "UmoAuthSdk",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/UmoAuthSdk.xcframework.zip",
-            checksum: "f74eed54814635d3b17ec1f954819dfba7b34afa18d9b59e151752989610cab8"
-        ),
-        .binaryTarget(
-            name: "url_launcher_ios",
-            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.141-internal/url_launcher_ios.xcframework.zip",
-            checksum: "964d7086f8f0086aae15658300cfa63e04ecd38be8c4f53e06f8f9f13af9187f"
+            url: "https://github.com/cts-platforms/umo-authsdk/releases/download/0.0.142-internal/UmoAuthSdk.xcframework.zip",
+            checksum: "05276eb1752f1c3af9097dc7ca44d6ffb3986e0bb8a3ee77ca59f66294868445"
         )
     ]
 )
